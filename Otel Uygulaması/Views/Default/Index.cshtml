@@ -1,0 +1,72 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_TestLayout.cshtml";
+}
+
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+
+<body>
+    
+    
+    <div class="header-banner">
+        <div class="wrap">
+            <div class="banner">
+                <div class="indent">
+                    <h2 class="indent-left margin-bot">TATVAN HOTEL</h2>
+                    
+                    <div class="header_bottom_right_images">
+
+                        <div class="slider">
+                            <ul class="rslides" id="slider1">
+                                <li><img src="~/web/images/otel2.jpg" alt=""></li>
+                                <li><img src="~/web/images/otel3.jpg" alt=""></li>
+                                <li><img src="~/web/images/hotel1.jpg" alt=""></li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <div class"content">
+        <div class="wrap">
+            <div class="wrapper">
+                <div class="con-top">
+                    <h3>TATVAN OTEL'E HOŞGELDİNİZ...</h3>
+                    <p>Tatvan Hotel, konforu, zarafeti ve misafirperverliği bir araya getiren benzersiz bir konaklama deneyimi sunan ayrıcalıklı bir oteldir. Misyonumuz, konuklarımıza unutulmaz anlar yaşatmak ve konukseverlikte sınır tanımamaktır.</p>
+                    <p>her anlamda kaliteli hizmet sunarak konuklarımızın beklentilerini aşmaktır. Misafir memnuniyetini odak noktamız yaparak, Tatvan Hotel'i şehrimizin önde gelen konaklama tercihlerinden biri haline getirmek istiyoruz.</p>
+                    <p>Tatvan Hotel, geniş ve konforlu odaları, modern toplantı salonları, özel etkinlik düzenleme imkanları, üst düzey restoran ve barları ile konuklarımıza eksiksiz bir konaklama deneyimi sunmaktadır. Ayrıca, tatilciler, iş seyahatleri ve özel etkinlikler için ideal bir tercihtir.</p>
+                </div>
+                <div >
+                    @Html.Action("Partial1","Default")
+                </div>
+
+
+
+                <div class="grids">
+                    <div class="box1">
+                        @Html.Action("partial3","Default")
+                        @Html.Action("partial4","Default")
+                        @Html.Action("partial5","Default")
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
+
+

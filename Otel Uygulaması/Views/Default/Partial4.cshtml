@@ -1,0 +1,17 @@
+﻿@using Otel_Uygulaması.Models.Siniflar
+@model List<Otel_Uygulaması.Models.Blog>
+
+<h2 style="color:orangered ">Popüler konaklama yeri imkân ve özellikleri</h2>
+<div class="box-left">
+    @foreach (var x in Model)
+    {
+        <div class="bot-img">
+            <img src="@x.BlogImage" alt="" />
+        </div>
+        <div class="bot-desc">
+            <p>@x.Aciklama </p>
+        </div>
+        <div class="clear"></div>
+    }
+
+   </div>

@@ -1,0 +1,15 @@
+﻿@using Otel_Uygulaması.Models.Siniflar
+@model List<Otel_Uygulaması.Models.Blog>
+<div class="padding">
+    <h2 style="color:orangered ">TATVAN HOTEL HAKKINDA BİLGİLER</h2>
+    <ul class="list list-pad">
+        @{ int i = 0;}
+        @foreach (var x in Model)
+        {
+            <li class="list-bg"><span>@{i++;} @i.</span><a href="/Default/DetaylıBilgi/">@x.Baslik> </a></li>
+        }
+
+
+    </ul>
+    <a href="/Default/DetaylıBilgi" class="link1">DETAYLI BİLGİ İÇİN...</a>
+</div>

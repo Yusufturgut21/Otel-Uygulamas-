@@ -1,0 +1,190 @@
+﻿@using Otel_Uygulaması.Models.Siniflar
+@model List<Otel_Uygulaması.Models.Blog>
+@{
+    ViewBag.Title = "DetaylıBilgi";
+    Layout = "~/Views/Shared/_TestLayout.cshtml";
+}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+
+
+<h2 style="color:orangered ; text-align:center;">TATVAN HOTEL ODALARIMIZ</h2>
+<div class="row">
+    <div class="col-sm-6">
+        <div class="row row-cols-1 row-cols-md-2">
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/486734975.jpg?k=01ab9d402cb4a5d1217511d45b7031f608ba00a902c0c49f483a3ebe74458c01&o=&hp=1" class="card-img-top" alt="...">
+
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/170894994.jpg?k=e06bd98154629737f9fdede45afd1a768b8185a4db53a24539a316cf5e34ca43&o=&hp=1" class="card-img-top" alt="...">
+
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="https://png.pngtree.com/thumb_back/fh260/background/20220311/pngtree-western-restaurant-hotel-room-restaurant-gold-image_990183.jpg" class="card-img-top" alt="...">
+
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="https://img.freepik.com/free-photo/luxury-classic-modern-bedroom-suite-hotel_105762-1787.jpg?size=626&ext=jpg&ga=GA1.1.1546980028.1703721600&semt=ais" class="card-img-top" alt="...">
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="col-sm-6">
+        <div class="card">
+            <div class="card-body">
+
+
+                <h5 class="card-title">ODALAR</h5>
+                <p class="card-text">
+                    Tatvan Hotel, muhteşem göl manzarasıyla çevrili bir cennet köşesinde konuklarına hizmet vermektedir. Odalarımızın birçoğu, Van Gölü'nün büyüleyici manzarasına açılan geniş pencerelerle donatılmıştır.
+                    <h5>
+                        20 metre kare <br />
+                        2 kişilik <br />
+                        2 tek Kişilik Yatak <br />
+                        Ücretsiz kablosuz internet <br />
+                        Şimdi rezervasyon yapın, daha sonra ödeyin<br />
+                    </h5>
+                </p>
+
+                <p class="card-text">
+                    Bu konaklama yeri, hâlihazırda artırılmış temizlik ve misafir güvenliği önlemlerinin uygulandığını bildirmektedir.
+
+                    Konaklama yeri, elektrostatik sprey ile temizlenir ve dezenfekte edilir, konaklama yerini temizlemek için dezenfektan kullanılır, sık dokunulan yüzeyler konaklama aralarında dezenfektanla temizlenir, yatak çarşafları ve havlular en az 60 °C/140 °F sıcaklıkta yıkanır, misafirlerin odaları temizlikten sonra mühürlenir.
+
+                    Misafirlere maske ve eldiven dahil olmak üzere kişisel koruyucu ekipman sunulacaktır.
+
+                </p>
+
+
+                <a href="/Default/Rezervasyon/" class="btn btn-primary">REZERVASYON İÇİN TIKLAYINIZ.</a>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<h2 style="color:orangered ; text-align:center;">TATVAN HOTEL YEMEK MENÜLERİ</h2>
+<div class="row">
+    <div class="col-sm-6">
+        <div class="header_bottom_right_images">
+
+
+            <ul class="rslides" id="slider1">
+                <li><img src="https://i.hizliresim.com/i6j65rt.jpg" alt=""></li>
+
+
+            </ul>
+
+        </div>
+
+    </div>
+    <div class="col-sm-6">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">YEMEK</h5>
+
+
+                <p class="card-text">
+                    Tatvan Hotel, konuklarına unutulmaz bir gastronomik deneyim sunmak için özenle hazırlanan yemek menülerini ve öğün saatlerini sunmaktadır. Otelimizde her damak zevkine hitap eden çeşitli yemek seçenekleri bulunmaktadır.
+
+                    Sabah kahvaltıları, günün enerjik başlamak isteyen misafirleri için özel olarak hazırlanmış zengin bir kahvaltı menüsü ile servis edilmektedir. Misafirlerimiz, taze meyve suları, çeşitli peynir ve zeytin çeşitleri, sıcak ekmek ve poğaça çeşitleri ile güne enerjik bir başlangıç yapabilirler.
+
+                </p>
+                <p>
+                    Öğle ve akşam yemekleri ise özenle seçilmiş malzemelerle hazırlanan lezzetli yemek seçenekleri ile dikkat çekmektedir. Tatvan Hotel'in şefleri, yöresel lezzetleri modern sunumlarla birleştirerek konuklara unutulmaz bir mutfak deneyimi yaşatmaktadır. Menülerimizde yer alan et, balık, ve sebze yemekleri özel soslarla sunularak damak zevkine hitap etmektedir.
+                </p>
+
+                <a href="/Default/Rezervasyon/" class="btn btn-primary">REZERVASYON İÇİN TIKLAYINIZ.</a>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<h2 style="color:orangered ; text-align:center;">TATVAN HOTEL SPOR SALONU</h2>
+<div class="row">
+    <div class="col-sm-6">
+        <div class="header_bottom_right_images">
+
+
+            <ul class="rslides" id="slider1">
+                <li><img src="https://i.hizliresim.com/t5iz1gn.jpg" alt=""></li>
+
+
+            </ul>
+
+        </div>
+
+    </div>
+    <div class="col-sm-6">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">SPOR SALONU</h5>
+
+
+                <p class="card-text">
+                    Tatvan Hotel'in modern ve donanımlı spor salonu, konuklarına sağlıklı bir yaşam tarzını sürdürme imkanı sunmaktadır. Otelimizde bulunan spor salonu, fitness ve egzersiz tutkunları için ideal bir ortam sunarak, konukların seyahatleri boyunca aktif kalmalarına ve formda kalmalarına olanak tanır.
+
+                    Spor salonumuzda bulunan özellikler arasında son teknoloji fitness ekipmanları, serbest ağırlıklar, kardiyo ekipmanları ve egzersiz alanları bulunmaktadır. Bu sayede konuklarımız, kişisel antrenman hedeflerine ulaşmak veya seyahatleri sırasında düzenli egzersiz yapmak için geniş bir imkana sahiptir.
+                </p>
+                <p>
+                    Tatvan Hotel'in spor salonu, konforlu bir ortamda sağlıklı yaşamı destekleyen bir atmosfer sunarak, seyahat ederken bile konukların fit ve enerjik kalmasına yardımcı olur. Spor yapma alışkanlıklarını sürdürmek isteyen konuklar için ideal bir seçenektir.
+                </p>
+
+                <a href="/Default/Rezervasyon/" class="btn btn-primary">REZERVASYON İÇİN TIKLAYINIZ.</a>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+<h2 style="color:orangered ; text-align:center;">TATVAN HOTEL TOPLANTI VE ETKİNLİK</h2>
+<div class="row">
+    <div class="col-sm-6">
+        <div class="header_bottom_right_images">
+
+
+            <ul class="rslides" id="slider1">
+                <li><img src="https://i.hizliresim.com/nb53j1z.jpg" alt=""></li>
+
+
+            </ul>
+
+        </div>
+
+    </div>
+    <div class="col-sm-6">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">TOPLANTI VE ETKİNLİK</h5>
+
+
+                <p class="card-text">
+                    Tatvan Hotel, profesyonel ve etkileyici bir iş ortamı sağlamak üzere tasarlanmış geniş toplantı ve etkinlik alanlarıyla donatılmıştır. İş dünyasının ihtiyaçlarına uygun olarak tasarlanan bu alanlar, çeşitli etkinliklere ve toplantılara ev sahipliği yapmak için idealdir. İş seyahatleri, konferanslar, seminerler veya özel etkinlikler için mükemmel bir mekan sunar.
+                    Spor salonumuzda bulunan özellikler arasında son teknoloji fitness ekipmanları, serbest ağırlıklar, kardiyo ekipmanları ve egzersiz alanları bulunmaktadır. Bu sayede konuklarımız, kişisel antrenman hedeflerine ulaşmak veya seyahatleri sırasında düzenli egzersiz yapmak için geniş bir imkana sahiptir.
+                </p>
+                <p>
+                    Modern Donanımlar: Otelimizdeki toplantı salonları, çağdaş teknolojiye sahip ses ve görüntü sistemleri, projeksiyon cihazları, geniş ekranlar ve kablosuz internet erişimi gibi modern donanımlarla donatılmıştır.
+
+                    Çeşitli Salon Seçenekleri: Farklı büyüklükte ve düzenlerdeki toplantı salonları, farklı grup büyüklüklerine uyum sağlayabilir. Bu sayede küçük iş toplantılarından büyük konferanslara kadar çeşitli etkinlikleri gerçekleştirmek mümkündür.
+                </p>
+
+                <a href="/Default/Rezervasyon/" class="btn btn-primary">REZERVASYON İÇİN TIKLAYINIZ.</a>
+            </div>
+        </div>
+    </div>
+
+</div>

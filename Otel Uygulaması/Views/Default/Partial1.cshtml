@@ -1,0 +1,17 @@
+﻿@using Otel_Uygulaması.Models.Siniflar
+@model List<Otel_Uygulaması.Models.Blog>
+
+<div class="image-container">
+    @foreach (var x in Model)
+    {
+        <div class="blog-item" style="display: inline-block; text-align: center;">
+            <img src="@x.BlogImage" alt="Resim 1" style="width: 300px; height: 200px; display: block; margin: 0 auto;">
+
+            <h4 style="color:orangered ">@x.Baslik</h4>
+            <a href="/Default/DetaylıBilgi/" class="disabled" style="display: inline-block; margin-bottom: 5px; color: blue; padding: 10px; text-decoration: none; text-align: center; text-;">DETAYLI BİLGİ ALMAK İÇİN TIKLAYINIZ.</a>
+
+
+
+        </div>
+            }
+</div>
